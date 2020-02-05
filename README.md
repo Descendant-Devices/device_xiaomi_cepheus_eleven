@@ -1,5 +1,3 @@
-Copyright (C) 2019 Paranoid Android
-
 Device configuration for Xiaomi Mi 9
 =========================================
 
