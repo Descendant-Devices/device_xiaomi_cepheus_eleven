@@ -1,2 +1,3 @@
 # Xiaomi thermal daemon
 sys.thermal.                             u:object_r:thermal_normal_prop:s0
+ro.product.system.manufacturer           u:object_r:manufacturer_prop:s0
