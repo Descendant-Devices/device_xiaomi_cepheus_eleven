@@ -29,7 +29,6 @@ import android.util.Log;
 import androidx.preference.PreferenceManager;
 
 import static android.provider.Settings.Secure.DOZE_ALWAYS_ON;
-import static android.provider.Settings.Secure.DOZE_ON_CHARGE;
 import static android.provider.Settings.Secure.DOZE_ENABLED;
 
 public final class DozeUtils {
@@ -39,8 +38,7 @@ public final class DozeUtils {
 
     private static final String DOZE_INTENT = "com.android.systemui.doze.pulse";
 
-    protected static final String KEY_ALWAYS_ON = "doze_always_on";
-    protected static final String KEY_ON_CHARGE = "doze_on_charge";
+    protected static final String ALWAYS_ON_DISPLAY = "always_on_display";
 
     protected static final String CATEG_PICKUP_SENSOR = "pickup_sensor";
     protected static final String CATEG_PROX_SENSOR = "proximity_sensor";
@@ -112,16 +110,6 @@ public final class DozeUtils {
 
     protected static boolean alwaysOnDisplayAvailable(Context context) {
         return new AmbientDisplayConfiguration(context).alwaysOnAvailable();
-    }
-
-    protected static boolean enableOnCharge(Context context, boolean enable) {
-        return Settings.Secure.putIntForUser(context.getContentResolver(),
-                DOZE_ON_CHARGE, enable ? 1 : 0, UserHandle.USER_CURRENT);
-    }
-
-    protected static boolean isOnChargeEnabled(Context context) {
-        return Settings.Secure.getIntForUser(context.getContentResolver(),
-                DOZE_ALWAYS_ON, 1, UserHandle.USER_CURRENT) != 0;
     }
 
     protected static boolean isGestureEnabled(Context context, String gesture) {
