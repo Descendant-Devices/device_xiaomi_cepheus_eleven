@@ -16,12 +16,11 @@
 $(call inherit-product, device/xiaomi/cepheus/msmnile.mk)
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/404/configs/common.mk)
-
-TARGET_BOOT_ANIMATION_RES := 1080
+$(call inherit-product, vendor/descendant/config/common_full_phone.mk)
+$(call inherit-product, device/xiaomi/cepheus/GApps-flags.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := p404_cepheus
+PRODUCT_NAME := descendant_cepheus
 PRODUCT_DEVICE := cepheus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9
