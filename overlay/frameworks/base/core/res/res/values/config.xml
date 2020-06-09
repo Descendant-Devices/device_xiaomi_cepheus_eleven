@@ -1114,4 +1114,10 @@
 
     <bool name="config_needCustomFODView">true</bool>
 
+    <!-- Flag indicating whether the device supports dynamic display color handling -->
+    <bool name="config_dynamic_display_colors_available">true</bool>
+
+    <!-- Flag indicating whether the device supports dynamic font contrast handling -->
+    <bool name="config_dynamic_font_contrast_available">true</bool>
+
 </resources>
