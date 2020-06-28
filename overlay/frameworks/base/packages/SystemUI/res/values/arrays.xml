@@ -16,4 +16,10 @@
         <item>@null</item>
         <item>127</item>
     </array>
+    <integer-array name="charge_warn_lvls" translatable="false">
+        <item>1200000</item>
+        <item>2160000</item>
+        <item>1440000</item>
+    </integer-array>
+
 </resources>
