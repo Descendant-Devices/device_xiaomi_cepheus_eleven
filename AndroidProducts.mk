@@ -13,4 +13,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/descendant_cepheus.mk
+    $(LOCAL_DIR)/potato_cepheus.mk
