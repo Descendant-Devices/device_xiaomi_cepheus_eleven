@@ -1,0 +1,38 @@
+[
+  {
+    "repository": "PixelExperience-Devices/kernel_xiaomi_cepheus",
+    "target_path": "kernel/xiaomi/cepheus",
+    "branch": "eleven",
+    "remote": "github"
+  },
+  {
+    "repository" : "PixelExperience/hardware_qcom-caf_sm8150_audio",
+    "target_path": "hardware/qcom-caf/sm8150/audio",
+    "branch": "eleven",
+    "remote": "github"
+  },
+  {
+   "repository" : "LineageOS/android_hardware_xiaomi",
+   "target_path": "hardware/xiaomi",
+   "branch"     : "lineage-18.1",
+   "remote": "github"
+  },
+ {
+   "repository" : "vendor_xiaomi-firmware",
+   "target_path": "vendor/xiaomi/firmware",
+   "remote"     : "pixel-devices-blobs",
+   "clone-depth": "1",
+   "branch"     : "eleven"
+ },
+ {
+   "repository" : "vendor_xiaomi_cepheus",
+   "target_path": "vendor/xiaomi/cepheus",
+   "remote"     : "pixel-devices-blobs",
+   "branch"     : "eleven"
+ },
+ {
+   "repository" : "kdrag0n/proton-clang",
+   "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
+   "branch"     : "master"
+ }
+]
