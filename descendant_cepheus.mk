@@ -30,6 +30,7 @@ TARGET_FACE_UNLOCK_SUPPORT := true
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+TARGET_SUPPORTS_BLUR := true
 # Device identifier
 PRODUCT_NAME := descendant_cepheus
 PRODUCT_DEVICE := cepheus
